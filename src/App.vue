@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Todos</h1>
+    <h2>Create a new item in {{ taskRepo.metadata.caption }}</h2>
     <main>
       <form @submit.prevent="addTask()">
         <input v-model="newTaskTitle" placeholder="What needs to be done?" />

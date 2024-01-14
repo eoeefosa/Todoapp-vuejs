@@ -28,7 +28,7 @@ main {
 
 main > div,
 main > form {
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
@@ -44,6 +44,9 @@ input {
   font-family: inherit;
   font-size: 100%;
   width: 100%;
+  border: 0;
+}
+input:active {
   border: 0;
 }
 
